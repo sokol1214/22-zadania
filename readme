@@ -1,0 +1,49 @@
+1. Stwórz prosty skrypt w JavaScript, który wyświetli komunikat „Witaj na mojej stronie!” w konsoli.
+2. Zadeklaruj zmienne imie i wiek, przypisz im wartości i wyświetl tekst „Imię: [imie], Wiek: [wiek]” w
+konsoli.
+3. W skrypcie z zadania 2 dodaj komentarze wyjaśniające, co robi każdy wiersz kodu.
+4. Zadeklaruj zmienną liczba i przypisz jej wartość 10. Następnie użyj operatorów przypisania, aby
+kolejno dodać, odjąć, pomnożyć i podzielić ją przez 2. Wyświetl wynik po każdej operacji.
+5. Napisz kod, który porównuje zmienne x = 5 i y = "5" za pomocą == i ===, a następnie wyświetla
+wynik w konsoli. Wypisz wnioski dotyczące różnicy między == a ===.
+6. Zadeklaruj zmienne a = true i b = false. Napisz warunek, który zwraca true, tylko jeśli a i b są różne,
+oraz warunek, który zwraca true, jeśli przynajmniej jedna z tych zmiennych jest true.
+7. Napisz skrypt, który pobiera wiek użytkownika i sprawdza:
+- Jeśli wiek < 13, wyświetla „Dziecko”.
+- Jeśli wiek jest między 13 a 18, wyświetla „Nastolatek”.
+- Jeśli wiek > 18, wyświetla „Dorosły”.
+8. Utwórz tablicę owoce z trzema owocami. Dodaj kolejny owoc na końcu tablicy i usuń pierwszy.
+Wyświetl zmodyfikowaną tablicę w konsoli.
+9. push i pop: Dodaj trzy liczby do tablicy liczby, a następnie usuń ostatnią.
+map: Utwórz nową tablicę, gdzie każda liczba z liczby jest podwojona.
+filter: Z tej samej tablicy liczby wybierz tylko liczby większe od 5.
+reduce: Oblicz sumę liczb w tablicy liczby.
+Jeśli powyższe metody nie były omawiane na teorii, proszę poczytać w dokumentacji MDN
+10. Utwórz obiekt samochod z właściwościami marka, model, rok. Dodaj do niego metodę opis, która
+zwróci tekst opisujący samochód, np. „Marka: Toyota, Model: Corolla, Rok: 2020”.
+11. Napisz kod, który wybiera element o ID tytul na stronie HTML i zmienia jego tekst na „Witaj na
+stronie!”.
+12. Użyj getElementById do wybrania elementu o ID naglowek.
+Użyj querySelector do wybrania pierwszego elementu p.
+Użyj querySelectorAll do wybrania wszystkich elementów div
+13. Utwórz nowy element li i dodaj go do listy ul o ID lista.
+Usuń ostatni element z tej samej listy.
+14. Zmień innerHTML elementu div na „Cześć!”.
+Dodaj atrybut class o wartości styl do elementu p.
+15. Utwórz przycisk clickMe. Dodaj kod, który wyświetli w konsoli tekst „Kliknięto przycisk!” po kliknięciu
+na ten przycisk.
+16. Dodaj addEventListener do elementu p, aby zmienić jego kolor tekstu na zielony, gdy użytkownik
+najedzie na niego myszką.
+17. Napisz funkcję wyswietlLiczbe, która przyjmuje liczbę jako argument i wyświetla ją w konsoli. Dodaj
+przyciski 1, 2, 3, które po kliknięciu przekazują odpowiednią liczbę do funkcji wyswietlLiczbe.
+18. Dodaj przycisk, który domyślnie przesyła formularz. Zastosuj event.preventDefault(), aby zapobiec
+przesłaniu formularza, gdy nie jest wypełniony poprawnie.
+19. Utwórz formularz z polem tekstowym email. Po kliknięciu przycisku „Prześlij” wyświetl wartość email
+w konsoli.
+20. Dodaj walidację do pola wiek, która sprawdza, czy użytkownik wpisał liczbę większą od 18. Jeśli
+nie, wyświetl komunikat „Musisz mieć ukończone 18 lat”.
+21. Dodaj pole email. Gdy użytkownik wpisze wartość, która nie zawiera @, obramowanie pola powinno
+zmienić się na czerwone. Jeśli wpisze poprawny adres, obramowanie powinno zmienić się na
+zielone.
+22. Utwórz formularz z polem nazwa i przyciskiem „Prześlij”. Zastosuj event.preventDefault() w funkcji
+obsługującej zdarzenie submit, aby zatrzymać przesyłanie formularza, gdy pole nazwa jest puste.
